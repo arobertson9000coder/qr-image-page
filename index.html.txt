@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>QR Image Viewer</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #f8f8f8;
+      margin: 0;
+    }
+    img {
+      max-width: 95%;
+      max-height: 95%;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <img src="100 Ghosts.png" alt="QR Image">
+</body>
+</html>
